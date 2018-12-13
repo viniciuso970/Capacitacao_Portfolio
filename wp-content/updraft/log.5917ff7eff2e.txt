@@ -1,0 +1,142 @@
+0000.001 (0) Opened log file at time: Thu, 13 Dec 2018 00:35:23 +0000 on http://localhost/Capacitacao_Portfolio
+0000.056 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0 PHP: 7.2.3 (apache2handler, Windows NT VINICIUS-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.31-MariaDB WPLANG: pt_BR Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.3M | 4M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.100 (0) Free space on disk containing Updraft's temporary directory: 173566.4 MB
+0000.154 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.190 (0) Semaphore (fd, wp_options) being initialised
+0000.321 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.475 (0) Set semaphore last lock (fd) time to 2018-12-13 00:35:24
+0000.519 (0) Semaphore lock (fd) complete
+0000.631 (0) Backup run: resumption=0, nonce=5917ff7eff2e, begun at=1544661323 (1s ago), job type=backup
+0000.774 (0) Scheduling a resumption (1) after 300 seconds (1544661624) in case this run gets aborted
+0000.904 (0) Checking if we have a zip executable available
+0001.009 (0) Creation of backups of directories: beginning
+0001.191 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.401 (0) Total entities for the zip file: 236 directories, 1601 files (0 skipped as non-modified), 30.1 MB
+0002.510 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.605 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.828 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.932 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.022 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.067 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.2 MB, 1601 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.486 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 600 files added (on-disk size: 3510.7 KB)
+0004.652 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 700 files added (on-disk size: 3510.7 KB)
+0004.783 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 800 files added (on-disk size: 3510.7 KB)
+0004.913 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 900 files added (on-disk size: 3510.7 KB)
+0005.030 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 1000 files added (on-disk size: 3510.7 KB)
+0005.072 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.9 MB, 1601 files batched, 501 (1002) added so far); re-opening (prior size: 3510.7 KB)
+0007.037 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 1100 files added (on-disk size: 7809.1 KB)
+0007.148 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 1200 files added (on-disk size: 7809.1 KB)
+0007.291 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 1300 files added (on-disk size: 7809.1 KB)
+0007.420 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 1400 files added (on-disk size: 7809.1 KB)
+0007.535 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 1500 files added (on-disk size: 7809.1 KB)
+0007.585 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 1601 files batched, 501 (1503) added so far); re-opening (prior size: 7809.1 KB)
+0008.534 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip.tmp: 1600 files added (on-disk size: 8697.5 KB)
+0009.077 (0) Created plugins zip (0) - 8836.3 KB in 7.8 s (1132.5 KB/s) (sha1: b47a80f7afc2f6903eb62d1b49e8a01c6a128ef5, sha256: c0e52c799f20a082e7d2320041a5e62ac983e048b03fa3d451022b09b9ec3305)
+0009.288 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.518 (0) Total entities for the zip file: 45 directories, 195 files (0 skipped as non-modified), 2.8 MB
+0010.714 (0) Zip: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.135 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 158 (158) files added so far); re-opening (prior size: 0 KB)
+0013.717 (0) Created themes zip (0) - 1909.7 KB in 4.4 s (436.6 KB/s) (sha1: 312a06d46782c917923e3822467f6f437b0bee9a, sha256: b1015dfdf0d1ca5f5854dd2d1ff9908a2360ccb617ecb670445370785d5920df)
+0013.827 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0013.958 (0) Looking for candidates to backup in: C:\xampp\htdocs\Capacitacao_Portfolio/wp-content/uploads
+0014.004 (0) finding files: 2018: adding to list (1)
+0014.035 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0014.128 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0014.281 (0) Created uploads zip (0) - 0.2 KB in 0.2 s (1.2 KB/s) (sha1: b6ea5b7490c7bf577483114c57c707ea90ce5578, sha256: 94ce698cc6e8c61dd4e437224be31fe757658cd4b24206c5080423c5083498c1)
+0014.356 (0) Beginning backup of other directories found in the content directory (index: 0)
+0014.392 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0014.423 (0) Looking for candidates to backup in: C:\xampp\htdocs\Capacitacao_Portfolio/wp-content
+0014.458 (0) finding files: index.php: adding to list (1)
+0014.489 (0) finding files: languages: adding to list (2)
+0014.524 (0) finding files: plugins: skipping: this is the plugins directory
+0014.619 (0) finding files: themes: skipping: this is the themes directory
+0014.657 (0) finding files: updraft: skipping: this is the updraft directory
+0014.688 (0) finding files: upgrade: skipping: excluded by options
+0014.724 (0) finding files: uploads: skipping: this is the uploads directory
+0014.828 (0) Total entities for the zip file: 1 directories, 20 files (0 skipped as non-modified), 1.9 MB
+0015.522 (0) Created others zip (0) - 554.2 KB in 0.8 s (735.9 KB/s) (sha1: f9970301b055eb0e9007752598a6ab28443473d6, sha256: 5230c80814a12e2bafc8b0725472f7659eb54299c6c5cbc4d01b8a4e9bb3aee5)
+0015.685 (0) Saving backup status to database (elements: 8)
+0015.762 (0) Beginning creation of database dump (WordPress DB)
+0016.133 (0) Table wp_options: Total expected rows (approximate): 187
+0016.539 (0) Table wp_options: Total rows added: 186 in 0.34 seconds
+0016.617 (0) Table wp_options: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_options.table.gz - 119.5 KB)
+0016.759 (0) Table wp_users: Total expected rows (approximate): 1
+0016.820 (0) Table wp_users: Total rows added: 1 in 0.03 seconds
+0016.925 (0) Table wp_users: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_users.table.gz - 0.5 KB)
+0017.105 (0) Table wp_usermeta: Total expected rows (approximate): 17
+0017.164 (0) Table wp_usermeta: Total rows added: 17 in 0.02 seconds
+0017.220 (0) Table wp_usermeta: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_usermeta.table.gz - 0.9 KB)
+0017.380 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0017.444 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0017.498 (0) Table wp_commentmeta: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0017.609 (0) Table wp_comments: Total expected rows (approximate): 1
+0017.672 (0) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0017.717 (0) Table wp_comments: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_comments.table.gz - 0.7 KB)
+0017.922 (0) Table wp_links: Total expected rows (approximate): 0
+0017.969 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0018.018 (0) Table wp_links: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_links.table.gz - 0.4 KB)
+0018.198 (0) Table wp_postmeta: Total expected rows (approximate): 2
+0018.266 (0) Table wp_postmeta: Total rows added: 2 in 0.02 seconds
+0018.317 (0) Table wp_postmeta: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_postmeta.table.gz - 0.4 KB)
+0018.476 (0) Table wp_posts: Total expected rows (approximate): 4
+0018.547 (0) Table wp_posts: Total rows added: 4 in 0.01 seconds
+0018.595 (0) Table wp_posts: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_posts.table.gz - 3.3 KB)
+0018.841 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0019.085 (0) Table wp_term_relationships: Total rows added: 1 in 0.08 seconds
+0019.303 (0) Table wp_term_relationships: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_term_relationships.table.gz - 0.3 KB)
+0019.478 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0019.544 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.02 seconds
+0019.599 (0) Table wp_term_taxonomy: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0019.720 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0019.760 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0019.793 (0) Table wp_termmeta: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_termmeta.table.gz - 0.4 KB)
+0020.054 (0) Table wp_terms: Total expected rows (approximate): 1
+0020.093 (0) Table wp_terms: Total rows added: 1 in 0.01 seconds
+0020.185 (0) Table wp_terms: finishing file (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_terms.table.gz - 0.4 KB)
+0020.325 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_options.table.gz (1/12): adding to final database dump
+0020.388 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_users.table.gz (2/12): adding to final database dump
+0020.412 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0020.461 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0020.501 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0020.549 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_links.table.gz (6/12): adding to final database dump
+0020.578 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0020.615 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0020.646 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0020.681 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0020.711 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0020.748 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0020.783 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db.gz: finished writing out complete database file (104 KB)
+0021.109 (0) Total database tables backed up: 12 (backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db.gz, size: 127798, sha256)
+0021.330 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0021.413 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0021.502 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0021.541 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0021.578 (0) backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0021.618 (0) Saving backup history. Total backup size: 11.2 MB
+0021.711 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0021.806 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0021.843 (0) No remote despatch: user chose no remote backup service
+0021.925 (0) Recording as successfully uploaded: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-plugins.zip
+0022.087 (0) Recording as successfully uploaded: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-themes.zip
+0022.161 (0) Recording as successfully uploaded: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-uploads.zip
+0022.228 (0) Recording as successfully uploaded: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-others.zip
+0022.298 (0) Recording as successfully uploaded: backup_2018-12-12-2235_Capacitao_5917ff7eff2e-db.gz
+0022.419 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0022.449 (0) Number of backup sets in history: 1; groups (db): 1
+0022.486 (0) Examining (for databases) backup set with group_id=0, nonce=5917ff7eff2e, datestamp=1544661323 (Dec 13 2018 00:35:23)
+0022.526 (0) This backup set is the backup set just made, so will not be deleted.
+0022.526 (0) Number of backup sets in history: 1; groups (files): 1
+0022.563 (0) Examining (for files) backup set with nonce=5917ff7eff2e, datestamp=1544661323 (Dec 13 2018 00:35:23)
+0022.563 (0) This backup set is the backup set just made, so will not be deleted.
+0022.603 (0) This backup set is the backup set just made, so will not be deleted.
+0022.604 (0) This backup set is the backup set just made, so will not be deleted.
+0022.604 (0) This backup set is the backup set just made, so will not be deleted.
+0022.605 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0022.674 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0022.764 (0) Resume backup (5917ff7eff2e, 0): finish run
+0022.968 (0) Decremented the semaphore (fd) by 1
+0023.080 (0) Semaphore (fd) unlocked
+0023.123 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0023.272 (0) The backup apparently succeeded and is now complete
+0023.328 (0) No email will/can be sent - the user has not configured an email address.
+0023.386 (0) O backup aparentemente foi bem sucedido e está completo agora.
