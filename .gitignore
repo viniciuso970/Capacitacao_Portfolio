@@ -2,6 +2,7 @@
 wp-config.php
 wp-content/mu-plugins/
 wp-content/plugins/hello.php
+wp-content/uploads
 
 /.htaccess
 /license.txt
