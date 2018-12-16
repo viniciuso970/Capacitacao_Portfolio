@@ -32,13 +32,13 @@
                         ?>
                     </ul>
                 </div>
+                <form id="form-search" class="hide">
+                    <div class="input-field">
+                    <input id="search" type="search" placeholder="Search" required>
+                    <i id="icon-close" class="material-icons">close</i>
+                    </div>
+                </form>
             </nav>
-            <form id="form-search" class="hide">
-                <div class="input-field">
-                <input id="search" type="search" placeholder="Search" required>
-                <i id="icon-close" class="material-icons">close</i>
-                </div>
-            </form>
         </div>
         <div class="slider">
             <?php
@@ -47,7 +47,7 @@
                 while ( $loop->have_posts() ) : $loop->the_post();
             ?>
             <div class="slide">
-                <img src="<?php echo the_field('imagem');?>" alt="Galeria" srcset="">
+                <?php echo the_post_thumbnail(); ?>
                 <div class="slide-text">
                     <h1><?php echo the_title(); ?></h1>
                     <?php echo the_content(); ?>
