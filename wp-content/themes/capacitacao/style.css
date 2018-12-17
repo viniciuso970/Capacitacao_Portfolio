@@ -69,23 +69,19 @@ nav li a:hover {
 #form-search {
     background-color: white;
     position: absolute;
-    top: 0;
     width: 100%;
-    padding: 0 2%;
 }
 
 #search {
     border: none!important;
+    margin: 0 auto;
+    padding: 5px 10px 0 10px;
 }
 
 #search::placeholder {
     color: #7f7f7f!important;
     font-size: 25px;
     font-weight: 100;
-}
-
-#icon-close {
-    top: 10px!important;
 }
 
 .slider {
@@ -254,6 +250,9 @@ p.citacao {
     .segunda-secao .grid-s1-m2,
     .servicos.grid-s1-m3 {
         grid-column-gap: 25px;
+    }    
+    #form-search {
+        padding: 10px;
     }
     .container-secao {
         padding: 110px 10%;

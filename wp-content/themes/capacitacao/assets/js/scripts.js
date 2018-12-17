@@ -18,10 +18,12 @@
     });
     $('#icon-search').click(function() {
         $('#form-search').removeClass('hide');
+        $('.nav-wrapper').addClass('hide');
         $('#search').focus();
     });
     $('#icon-close').click(function() {
         $('#form-search').addClass('hide');
+        $('.nav-wrapper').removeClass('hide');
     });
 
 }(jQuery))

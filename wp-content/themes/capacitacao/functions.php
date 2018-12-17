@@ -2,6 +2,8 @@
 
 require get_template_directory() . '/inc/opcoes_customizer.php';
 
+add_theme_support( 'post-thumbnails' );
+
 function capacitacao_styles()
 {
     wp_register_style("font-awesome", get_template_directory_uri() . "/assets/css/font-awesome.css", array(), '4.7.0');
@@ -128,7 +130,7 @@ function capacitacao_post_type() {
 		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => 6,
-		'supports'           => array( 'title', 'editor', 'thumbnail' ),
+		'supports'           => array( 'title', 'editor' ),
         'taxonomies'         => array( 'category' ),
 	);
 	register_post_type( 'servicos', $args );

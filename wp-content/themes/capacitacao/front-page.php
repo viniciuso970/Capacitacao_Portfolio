@@ -128,8 +128,8 @@
     <div class="imagem-grid <?php echo $class_name; ?>">
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="galeria">
-            <a href="" class="fluidbox">
-                <img src="<?php echo the_field('imagem');?>" alt="Galeria" srcset="">
+            <a class="fluidbox">
+                <?php echo the_post_thumbnail(); ?>
             </a>
             <div class="galeria-text hide">
                 <h1><?php echo the_title(); ?></h1>
