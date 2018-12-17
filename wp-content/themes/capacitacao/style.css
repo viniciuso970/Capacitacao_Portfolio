@@ -27,12 +27,22 @@ p {
     color: #7e8082;
 }
 
+.p-1{
+  padding: 5%;
+}
+
+.p-2{
+  padding: 10%;
+}
+
 .mb-50 {
     margin-bottom: 50px;
 }
 .mb-60 {
     margin-bottom: 60px;
 }
+
+.grid-s1-m1-l2,
 .grid-s1-m1,
 .grid-s1-m2,
 .grid-s1-m3,
@@ -40,6 +50,16 @@ p {
 .galeria-grid-3 {
     display: grid;
     grid-template-columns: auto;
+}
+
+.grid-s2-m2-l4{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-center{
+  align-self: center;
+  justify-self: center;
 }
 
 nav {
@@ -196,7 +216,7 @@ p.citacao {
     margin-left: 47px;
     margin-bottom: 10px;
 }
-
+.our-clients h2,
 .our-services h2 {
     font-size: 30px;
     font-weight: 300;
@@ -250,7 +270,7 @@ p.citacao {
     .segunda-secao .grid-s1-m2,
     .servicos.grid-s1-m3 {
         grid-column-gap: 25px;
-    }    
+    }
     #form-search {
         padding: 10px;
     }
@@ -271,6 +291,12 @@ p.citacao {
 }
 
 @media only screen and (min-width: 1000px) {
+    .grid-s2-m2-l4{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .grid-s1-m1-l2{
+      grid-template-columns: 1fr 1fr;
+    }
     .grid-s1-m2-l3 {
         grid-template-columns: 1fr 1fr 1fr;
     }

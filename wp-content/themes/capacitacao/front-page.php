@@ -102,7 +102,7 @@
             </div>
         </div>
         <?php
-            endwhile;  
+            endwhile;
             wp_reset_postdata();
         ?>
     </div>
@@ -142,16 +142,49 @@
             </div>
         </div>
         <?php
-            endwhile;  
+            endwhile;
             wp_reset_postdata();
         ?>
     </div>
-    <?php 
-        endwhile; 
-        else: 
+    <?php
+      $clients = get_posts([
+        'post_type' => 'client',
+        'numberposts' => '8'
+      ]);
+    ?>
+    <div class="container-secao grid-s1-m1">
+      <div class="our-clients aos-init aos-animate" data-aos="fade-in" aos-duration="1000">
+        <h2>OUR
+          <span style="font-weight:bold;">CLIENTS</span>
+        </h2>
+        <div class="grid-s1-m1-l2">
+
+          <div class="grid-s2-m2-l4">
+
+            <?php
+            if($clients):
+              foreach ($clients as $client): ?>
+              <img class="grid-center" src="<?php echo get_the_post_thumbnail_url($client); ?>" alt="">
+              <?php
+            endforeach;
+          endif;
+          ?>
+
+          </div>
+
+          <p class="p-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <?php
+        endwhile;
+        else:
     ?>
     <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-    <?php 
+    <?php
         endif;
-        get_footer(); 
+        get_footer();
     ?>

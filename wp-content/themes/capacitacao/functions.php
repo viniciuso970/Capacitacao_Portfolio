@@ -14,7 +14,7 @@ function capacitacao_styles()
 	wp_register_style("fluidbox", get_template_directory_uri() . "/assets/css/fluidbox.min.css", array(), '1.0.0');
 	wp_register_style("aos", "https://unpkg.com/aos@2.3.1/dist/aos.css", array(), '1.0');
 	wp_register_style("style", get_template_directory_uri() . "/style.css", array(), '1.0');
-	
+
 
     wp_enqueue_style("font-awesome");
 	wp_enqueue_style("materialize");
@@ -24,7 +24,7 @@ function capacitacao_styles()
 	wp_enqueue_style("fluidbox");
 	wp_enqueue_style("aos");
 	wp_enqueue_style("style");
-	
+
     wp_register_script("script", get_template_directory_uri(). '/assets/js/scripts.js', array('jquery'), '1.0.0', true);
     wp_register_script("materialize", get_template_directory_uri(). '/assets/js/materialize.js', array('jquery'), '1.0.0', true);
 	wp_register_script("slick", get_template_directory_uri(). '/assets/js/slick.min.js', array('jquery'), '1.0.0', true);
@@ -59,7 +59,7 @@ function capacitacao_custom_logo() {
 		'width'		=> 300
 	);
 	add_theme_support('custom-logo', $logo);
-} 
+}
 
 add_action('after_setup_theme', 'capacitacao_custom_logo');
 
@@ -134,7 +134,7 @@ function capacitacao_post_type() {
         'taxonomies'         => array( 'category' ),
 	);
 	register_post_type( 'servicos', $args );
-	
+
 	$labels = array(
 		'name'               => _x( 'Galeria', 'capacitacao' ),
 		'singular_name'      => _x( 'Galeria', 'post type singular name', 'capacitacao' ),
@@ -169,6 +169,41 @@ function capacitacao_post_type() {
         'taxonomies'         => array( 'category' ),
 	);
     register_post_type( 'galeria', $args );
+
+    $labels = array(
+  		'name'               => _x( 'Cliente', 'capacitacao' ),
+  		'singular_name'      => _x( 'Cliente', 'post type singular name', 'capacitacao' ),
+  		'menu_name'          => _x( 'Cliente', 'admin menu', 'capacitacao' ),
+  		'name_admin_bar'     => _x( 'Cliente', 'add new on admin bar', 'capacitacao' ),
+  		'add_new'            => _x( 'Adicionar novo', 'book', 'capacitacao' ),
+  		'add_new_item'       => __( 'Adicionar novo Cliente', 'capacitacao' ),
+  		'new_item'           => __( 'Novo Cliente', 'capacitacao' ),
+  		'edit_item'          => __( 'Editar Cliente', 'capacitacao' ),
+  		'view_item'          => __( 'Visualizar Cliente', 'capacitacao' ),
+  		'all_items'          => __( 'Todas Cliente', 'capacitacao' ),
+  		'search_items'       => __( 'Procurar em Cliente', 'capacitacao' ),
+  		'parent_item_colon'  => __( 'Parent Cliente:', 'capacitacao' ),
+  		'not_found'          => __( 'Post Cliente não encontrado.', 'capacitacao' ),
+  		'not_found_in_trash' => __( 'Nenhum Post Cliente encontrado na lixeira.', 'capacitacao' )
+  	);
+
+  	$args = array(
+  		'labels'             => $labels,
+          'description'        => __( 'Description.', 'capacitacao' ),
+  		'public'             => true,
+  		'publicly_queryable' => true,
+  		'show_ui'            => true,
+  		'show_in_menu'       => true,
+  		'query_var'          => true,
+  		'rewrite'            => array( 'slug' => 'client' ),
+  		'capability_type'    => 'post',
+  		'has_archive'        => true,
+  		'hierarchical'       => false,
+  		'menu_position'      => 6,
+  		'supports'           => array( 'title', 'editor', 'thumbnail' ),
+          'taxonomies'         => array( 'category' ),
+  	);
+      register_post_type( 'client', $args );
 }
 
 add_action( 'init', 'capacitacao_post_type' );
