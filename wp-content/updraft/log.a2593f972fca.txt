@@ -1,0 +1,39 @@
+0000.341 () Opened log file at time: Mon, 17 Dec 2018 00:35:54 +0000 on http://localhost/Capacitacao_Portfolio
+0000.342 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.2.10-0ubuntu0.18.04.1 (apache2handler, Linux Ubuntu 4.15.0-36-generic #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018 x86_64) MySQL: 8.0.12 WPLANG: pt_BR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.342 () Free space on disk containing Updraft's temporary directory: 145505.9 MB
+0000.342 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.345 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0001.160 () Entity: plugins
+0001.160 () restore_backup(backup_file=backup_2018-12-16-2232_Capacitao_f82359a3013f-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:54:"/var/www/html/Capacitacao_Portfolio/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.161 () Desempacotando o backup... (backup_2018-12-16-2232_Capacitao_f82359a3013f-plugins.zip, 8.8 Mb)
+0001.783 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.783 () Moving old data: can potentially use wp_filesystem method / -old
+0001.783 () Movendo dados antigos para fora do caminho...
+0001.930 () Top-level entities being moved: advanced-custom-fields, updraftplus, advanced-custom-fields-font-awesome, index.php
+0001.931 () Movendo backup desempacotado para o local...
+0002.035 () Top-level entities being moved: advanced-custom-fields, updraftplus, advanced-custom-fields-font-awesome, index.php
+0002.036 () Limpando a sujeira...
+0002.309 () Entity: themes
+0002.309 () restore_backup(backup_file=backup_2018-12-16-2232_Capacitao_f82359a3013f-themes.zip, type=themes, info=a:2:{s:4:"path";s:53:"/var/www/html/Capacitacao_Portfolio/wp-content/themes";s:11:"description";s:5:"Temas";}, last_one=)
+0002.309 () Desempacotando o backup... (backup_2018-12-16-2232_Capacitao_f82359a3013f-themes.zip, 2.7 Mb)
+0002.365 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.365 () Moving old data: can potentially use wp_filesystem method / -old
+0002.365 () Movendo dados antigos para fora do caminho...
+0002.381 () Top-level entities being moved: twentyseventeen, twentysixteen, index.php, capacitacao, twentynineteen
+0002.382 () Movendo backup desempacotado para o local...
+0002.401 () Top-level entities being moved: twentyseventeen, twentysixteen, index.php, capacitacao, twentynineteen
+0002.402 () Limpando a sujeira...
+0002.571 () Entity: uploads
+0002.571 () restore_backup(backup_file=backup_2018-12-16-2232_Capacitao_f82359a3013f-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/var/www/html/Capacitacao_Portfolio/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0002.571 () Desempacotando o backup... (backup_2018-12-16-2232_Capacitao_f82359a3013f-uploads.zip, 0 Mb)
+0002.572 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.572 () Moving old data: can potentially use wp_filesystem method / -old
+0002.572 () Movendo dados antigos para fora do caminho...
+0002.572 () Movendo backup desempacotado para o local...
+0002.572 () Limpando a sujeira...
+0002.838 () Entity: others
+0002.838 () restore_backup(backup_file=backup_2018-12-16-2232_Capacitao_f82359a3013f-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/var/www/html/Capacitacao_Portfolio/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0002.838 () Desempacotando o backup... (backup_2018-12-16-2232_Capacitao_f82359a3013f-others.zip, 0.5 Mb)
+0002.857 () Limpando a sujeira...
+0003.143 () Restore successful!
+0003.143 () Restore successful

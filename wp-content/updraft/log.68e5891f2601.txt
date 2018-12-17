@@ -1,0 +1,75 @@
+0000.188 () Opened log file at time: Mon, 17 Dec 2018 00:47:35 +0000 on http://localhost/Capacitacao_Portfolio
+0000.189 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.2.10-0ubuntu0.18.04.1 (apache2handler, Linux Ubuntu 4.15.0-36-generic #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018 x86_64) MySQL: 8.0.12 WPLANG: pt_BR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.189 () Free space on disk containing Updraft's temporary directory: 145528.7 MB
+0000.255 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.258 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.545 () Entity: db
+0000.545 () restore_backup(backup_file=backup_2018-12-16-2308_Byron_0cd3eae93af0-db.gz, type=db, info=a:0:{}, last_one=)
+0000.545 () Desempacotando o backup... (backup_2018-12-16-2308_Byron_0cd3eae93af0-db.gz, 0.2 Mb)
+0000.546 () Database successfully unpacked
+0000.546 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.546 () Using direct MySQL access; value of use_mysqli is: 1
+0001.368 () Max packet size: 64 MB
+0001.368 () Entering maintenance mode
+0001.368 () Ativando modo de manutenção&#8230;
+0001.369 () Backup of: http://localhost/Capacitacao_Portfolio
+0001.369 () Content URL: http://localhost/Capacitacao_Portfolio/wp-content
+0001.369 () Uploads URL: http://localhost/Capacitacao_Portfolio/wp-content/uploads
+0001.369 () Old table prefix: wp_
+0001.369 () Site information: multisite=0
+0001.370 () New table prefix: wp_
+0001.625 () Processing table (InnoDB): wp_options
+0007.097 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0007.406 () Processing table (InnoDB): wp_users
+0008.795 () Processing table (InnoDB): wp_usermeta
+0010.019 () Processing table (InnoDB): wp_commentmeta
+0010.929 () Processing table (InnoDB): wp_comments
+0012.347 () Processing table (InnoDB): wp_links
+0013.406 () Processing table (InnoDB): wp_postmeta
+0014.898 () Processing table (InnoDB): wp_posts
+0017.493 () Processing table (InnoDB): wp_term_relationships
+0018.608 () Processing table (InnoDB): wp_term_taxonomy
+0019.688 () Processing table (InnoDB): wp_termmeta
+0020.646 () Processing table (InnoDB): wp_terms
+0021.525 () Processing table (InnoDB): wp_ngg_album
+0022.116 () Processing table (InnoDB): wp_ngg_gallery
+0023.184 () Processing table (InnoDB): wp_ngg_pictures
+0024.697 () Database queries processed: 50 in 24.14 seconds
+0024.919 () Unlocking database and leaving maintenance mode
+0024.920 () Desativando modo de manutenção&#8230;
+0024.920 () Finished: lines processed: 50 in 24.37 seconds
+0024.920 () Limpando a sujeira...
+0025.265 () Entity: plugins
+0025.265 () restore_backup(backup_file=backup_2018-12-16-2308_Byron_0cd3eae93af0-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:54:"/var/www/html/Capacitacao_Portfolio/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0025.265 () Desempacotando o backup... (backup_2018-12-16-2308_Byron_0cd3eae93af0-plugins.zip, 8.8 Mb)
+0025.665 () Moving old data: filesystem method / updraft_dir is potentially possible
+0025.665 () Moving old data: can potentially use wp_filesystem method / -old
+0025.665 () Movendo dados antigos para fora do caminho...
+0025.794 () Top-level entities being moved: advanced-custom-fields, updraftplus, advanced-custom-fields-font-awesome, index.php
+0025.795 () Movendo backup desempacotado para o local...
+0025.910 () Top-level entities being moved: advanced-custom-fields, updraftplus, advanced-custom-fields-font-awesome, index.php
+0025.911 () Limpando a sujeira...
+0026.143 () Entity: themes
+0026.143 () restore_backup(backup_file=backup_2018-12-16-2308_Byron_0cd3eae93af0-themes.zip, type=themes, info=a:2:{s:4:"path";s:53:"/var/www/html/Capacitacao_Portfolio/wp-content/themes";s:11:"description";s:5:"Temas";}, last_one=)
+0026.143 () Desempacotando o backup... (backup_2018-12-16-2308_Byron_0cd3eae93af0-themes.zip, 2.7 Mb)
+0026.203 () Moving old data: filesystem method / updraft_dir is potentially possible
+0026.203 () Moving old data: can potentially use wp_filesystem method / -old
+0026.203 () Movendo dados antigos para fora do caminho...
+0026.220 () Top-level entities being moved: twentyseventeen, twentysixteen, index.php, capacitacao, twentynineteen
+0026.221 () Movendo backup desempacotado para o local...
+0026.239 () Top-level entities being moved: twentyseventeen, twentysixteen, index.php, capacitacao, twentynineteen
+0026.240 () Limpando a sujeira...
+0026.447 () Entity: uploads
+0026.447 () restore_backup(backup_file=backup_2018-12-16-2308_Byron_0cd3eae93af0-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/var/www/html/Capacitacao_Portfolio/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0026.447 () Desempacotando o backup... (backup_2018-12-16-2308_Byron_0cd3eae93af0-uploads.zip, 6.4 Mb)
+0026.478 () Moving old data: filesystem method / updraft_dir is potentially possible
+0026.478 () Moving old data: can potentially use wp_filesystem method / -old
+0026.478 () Movendo dados antigos para fora do caminho...
+0026.478 () Movendo backup desempacotado para o local...
+0026.483 () Limpando a sujeira...
+0026.754 () Entity: others
+0026.754 () restore_backup(backup_file=backup_2018-12-16-2308_Byron_0cd3eae93af0-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/var/www/html/Capacitacao_Portfolio/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0026.754 () Desempacotando o backup... (backup_2018-12-16-2308_Byron_0cd3eae93af0-others.zip, 0.6 Mb)
+0026.781 () Limpando a sujeira...
+0027.171 () Restore successful!
+0027.172 () Restore successful
