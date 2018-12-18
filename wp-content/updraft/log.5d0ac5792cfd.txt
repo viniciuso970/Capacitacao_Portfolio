@@ -1,0 +1,75 @@
+0000.074 () Opened log file at time: Mon, 17 Dec 2018 01:47:39 +0000 on http://localhost/Capacitacao_Portfolio
+0000.074 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.2.5 (apache2handler, Linux vinicius 4.15.0-42-generic #45-Ubuntu SMP Thu Nov 15 19:32:57 UTC 2018 x86_64) MySQL: 10.1.32-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.2.5 mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.2M | 4M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.074 () Free space on disk containing Updraft's temporary directory: 58180.2 MB
+0000.207 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.300 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.420 () Entity: db
+0000.420 () restore_backup(backup_file=backup_2018-12-17-0130_Byron_360d2eecd1eb-db.gz, type=db, info=a:0:{}, last_one=)
+0000.421 () Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-db.gz, 0.2 Mb)
+0000.425 () Database successfully unpacked
+0000.425 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.426 () Using direct MySQL access; value of use_mysqli is: 1
+0000.891 () Max packet size: 32 MB
+0000.891 () Entering maintenance mode
+0000.891 () Enabling Maintenance mode&#8230;
+0000.895 () Backup of: http://localhost/Capacitacao_Portfolio
+0000.899 () Content URL: http://localhost/Capacitacao_Portfolio/wp-content
+0000.900 () Uploads URL: http://localhost/Capacitacao_Portfolio/wp-content/uploads
+0000.900 () Old table prefix: wp_
+0000.901 () Site information: multisite=0
+0000.921 () New table prefix: wp_
+0001.059 () Processing table (InnoDB): wp_options
+0004.023 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0004.466 () Processing table (InnoDB): wp_users
+0005.106 () Processing table (InnoDB): wp_usermeta
+0005.731 () Processing table (InnoDB): wp_commentmeta
+0006.202 () Processing table (InnoDB): wp_comments
+0006.938 () Processing table (InnoDB): wp_links
+0007.474 () Processing table (InnoDB): wp_postmeta
+0008.255 () Processing table (InnoDB): wp_posts
+0009.817 () Processing table (InnoDB): wp_term_relationships
+0010.564 () Processing table (InnoDB): wp_term_taxonomy
+0011.068 () Processing table (InnoDB): wp_termmeta
+0011.782 () Processing table (InnoDB): wp_terms
+0012.451 () Processing table (InnoDB): wp_ngg_album
+0012.899 () Processing table (InnoDB): wp_ngg_gallery
+0013.536 () Processing table (InnoDB): wp_ngg_pictures
+0013.894 () Database queries processed: 50 in 13.45 seconds
+0013.982 () Unlocking database and leaving maintenance mode
+0013.982 () Disabling Maintenance mode&#8230;
+0013.992 () Finished: lines processed: 50 in 13.55 seconds
+0013.993 () Cleaning up rubbish...
+0014.127 () Entity: plugins
+0014.128 () restore_backup(backup_file=backup_2018-12-17-0130_Byron_360d2eecd1eb-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:58:"/opt/lampp/htdocs/Capacitacao_Portfolio/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0014.129 () Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-plugins.zip, 8.8 Mb)
+0014.677 () Moving old data: filesystem method / updraft_dir is potentially possible
+0014.680 () Moving old data: can potentially use wp_filesystem method / -old
+0014.680 () Moving old data out of the way...
+0015.084 () Top-level entities being moved: updraftplus, index.php, advanced-custom-fields-font-awesome, advanced-custom-fields
+0015.087 () Moving unpacked backup into place...
+0015.287 () Top-level entities being moved: updraftplus, index.php, advanced-custom-fields-font-awesome, advanced-custom-fields
+0015.288 () Cleaning up rubbish...
+0015.470 () Entity: themes
+0015.470 () restore_backup(backup_file=backup_2018-12-17-0130_Byron_360d2eecd1eb-themes.zip, type=themes, info=a:2:{s:4:"path";s:57:"/opt/lampp/htdocs/Capacitacao_Portfolio/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0015.470 () Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-themes.zip, 2.7 Mb)
+0015.673 () Moving old data: filesystem method / updraft_dir is potentially possible
+0015.676 () Moving old data: can potentially use wp_filesystem method / -old
+0015.677 () Moving old data out of the way...
+0015.716 () Top-level entities being moved: twentynineteen, index.php, twentysixteen, capacitacao, twentyseventeen
+0015.722 () Moving unpacked backup into place...
+0015.782 () Top-level entities being moved: twentynineteen, index.php, twentysixteen, capacitacao, twentyseventeen
+0015.783 () Cleaning up rubbish...
+0015.879 () Entity: uploads
+0015.879 () restore_backup(backup_file=backup_2018-12-17-0130_Byron_360d2eecd1eb-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:58:"/opt/lampp/htdocs/Capacitacao_Portfolio/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0015.879 () Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-uploads.zip, 6.4 Mb)
+0015.911 () Moving old data: filesystem method / updraft_dir is potentially possible
+0015.912 () Moving old data: can potentially use wp_filesystem method / -old
+0015.912 () Moving old data out of the way...
+0015.923 () Moving unpacked backup into place...
+0015.930 () Cleaning up rubbish...
+0016.004 () Entity: others
+0016.004 () restore_backup(backup_file=backup_2018-12-17-0130_Byron_360d2eecd1eb-others.zip, type=others, info=a:2:{s:4:"path";s:50:"/opt/lampp/htdocs/Capacitacao_Portfolio/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0016.004 () Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-others.zip, 1.1 Mb)
+0016.139 () Cleaning up rubbish...
+0016.300 () Restore successful!
+0016.300 () Restore successful

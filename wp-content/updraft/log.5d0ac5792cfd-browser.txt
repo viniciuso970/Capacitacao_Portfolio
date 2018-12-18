@@ -1,0 +1,54 @@
+0000.294 (R) [notice] Looking for db archive: file name: backup_2018-12-17-0130_Byron_360d2eecd1eb-db.gz
+0000.296 (R) [notice] Archive is expected to be size: 249.1 KB: OK
+0000.298 (R) [notice] Looking for plugins archive: file name: backup_2018-12-17-0130_Byron_360d2eecd1eb-plugins.zip
+0000.299 (R) [notice] Archive is expected to be size: 9001.4 KB: OK
+0000.299 (R) [notice] Looking for themes archive: file name: backup_2018-12-17-0130_Byron_360d2eecd1eb-themes.zip
+0000.299 (R) [notice] Archive is expected to be size: 2748.4 KB: OK
+0000.299 (R) [notice] Looking for uploads archive: file name: backup_2018-12-17-0130_Byron_360d2eecd1eb-uploads.zip
+0000.299 (R) [notice] Archive is expected to be size: 6562.3 KB: OK
+0000.299 (R) [notice] Looking for others archive: file name: backup_2018-12-17-0130_Byron_360d2eecd1eb-others.zip
+0000.299 (R) [notice] Archive is expected to be size: 1126.9 KB: OK
+0000.300 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.421 (R) [notice] Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-db.gz, 0.2 Mb)
+0000.425 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.891 (R) [notice] Enabling Maintenance mode&#8230;
+0000.896 (R) [notice] Backup of: http://localhost/Capacitacao_Portfolio
+0000.899 (R) [notice] Content URL: http://localhost/Capacitacao_Portfolio/wp-content
+0000.899 (R) [notice] Uploads URL: http://localhost/Capacitacao_Portfolio/wp-content/uploads
+0000.900 (R) [notice] Old table prefix: wp_
+0000.900 (R) [notice] Site information: multisite = 0
+0000.921 (R) [notice] New table prefix: wp_
+0001.059 (R) [notice] Processing table (InnoDB):  wp_options
+0004.469 (R) [notice] Processing table (InnoDB):  wp_users
+0005.107 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0005.731 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0006.202 (R) [notice] Processing table (InnoDB):  wp_comments
+0006.938 (R) [notice] Processing table (InnoDB):  wp_links
+0007.474 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0008.255 (R) [notice] Processing table (InnoDB):  wp_posts
+0009.818 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0010.564 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0011.068 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0011.782 (R) [notice] Processing table (InnoDB):  wp_terms
+0012.451 (R) [notice] Processing table (InnoDB):  wp_ngg_album
+0012.899 (R) [notice] Processing table (InnoDB):  wp_ngg_gallery
+0013.536 (R) [notice] Processing table (InnoDB):  wp_ngg_pictures
+0013.894 (R) [notice] Database queries processed: 50 in 13.45 seconds
+0013.982 (R) [notice] Disabling Maintenance mode&#8230;
+0013.992 (R) [notice] Finished: lines processed: 50 in 13.55 seconds
+0013.994 (R) [notice] Cleaning up rubbish...
+0014.129 (R) [notice] Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-plugins.zip, 8.8 Mb)
+0014.680 (R) [notice] Moving old data out of the way...
+0015.087 (R) [notice] Moving unpacked backup into place...
+0015.297 (R) [notice] Cleaning up rubbish...
+0015.470 (R) [notice] Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-themes.zip, 2.7 Mb)
+0015.677 (R) [notice] Moving old data out of the way...
+0015.722 (R) [notice] Moving unpacked backup into place...
+0015.783 (R) [notice] Cleaning up rubbish...
+0015.879 (R) [notice] Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-uploads.zip, 6.4 Mb)
+0015.912 (R) [notice] Moving old data out of the way...
+0015.923 (R) [notice] Moving unpacked backup into place...
+0015.938 (R) [notice] Cleaning up rubbish...
+0016.004 (R) [notice] Unpacking backup... (backup_2018-12-17-0130_Byron_360d2eecd1eb-others.zip, 1.1 Mb)
+0016.139 (R) [notice] Cleaning up rubbish...
+0016.300 (R) [notice] Restore successful!
