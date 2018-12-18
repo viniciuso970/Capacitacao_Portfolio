@@ -1,0 +1,195 @@
+0000.000 (0) Opened log file at time: Tue, 18 Dec 2018 20:03:24 +0000 on http://localhost/Capacitacao_Portfolio
+0000.078 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.2.10-0ubuntu0.18.04.1 (apache2handler, Linux Ubuntu 4.15.0-36-generic #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018 x86_64) MySQL: 8.0.12 WPLANG: en_US Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.3M | 2M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.211 (0) Free space on disk containing Updraft's temporary directory: 145250.9 MB
+0000.549 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.703 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0001.126 (0) Set semaphore last lock (fd) time to 2018-12-18 20:03:25
+0001.200 (0) Semaphore lock (fd) complete
+0001.493 (0) Backup run: resumption=0, nonce=b97d9a5872fd, begun at=1545163404 (2s ago), job type=backup
+0001.660 (0) Scheduling a resumption (1) after 300 seconds (1545163706) in case this run gets aborted
+0001.853 (0) Checking if we have a zip executable available
+0001.949 (0) Testing: /usr/bin/zip
+0002.046 (0) Output: zip warning: binziptest/test.zip not found or empty
+0002.220 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0002.317 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0002.396 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0002.463 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0002.538 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0002.630 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0002.709 (0) Working binary zip found: /usr/bin/zip
+0002.875 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0002.942 (0) Creation of backups of directories: beginning
+0003.209 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.418 (0) Total entities for the zip file: 238 directories, 1609 files (0 skipped as non-modified), 30.2 MB
+0003.520 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.636 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.812 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.935 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.070 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.180 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (23 MB, 1609 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0006.099 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: size is now: 6.10 MB
+0006.289 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 600 files added (on-disk size: 6278.8 KB)
+0006.367 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 700 files added (on-disk size: 6278.8 KB)
+0006.489 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 800 files added (on-disk size: 6278.8 KB)
+0006.568 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 900 files added (on-disk size: 6278.8 KB)
+0006.668 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 1000 files added (on-disk size: 6278.8 KB)
+0006.755 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 1609 files batched, 501 (1002) added so far); re-opening (prior size: 6278.8 KB)
+0007.048 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 1100 files added (on-disk size: 6837.9 KB)
+0007.170 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 1200 files added (on-disk size: 6837.9 KB)
+0007.272 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 1300 files added (on-disk size: 6837.9 KB)
+0007.347 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 1400 files added (on-disk size: 6837.9 KB)
+0007.448 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 1500 files added (on-disk size: 6837.9 KB)
+0007.524 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 1609 files batched, 501 (1503) added so far); re-opening (prior size: 6837.9 KB)
+0007.825 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: size is now: 8.50 MB
+0007.972 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip.tmp: 1600 files added (on-disk size: 8654.5 KB)
+0008.658 (0) Created plugins zip (0) - 9001.4 KB in 5.3 s (1683.2 KB/s) (sha1: ad744bee12c4dac6a600139ef46c9f0c982d32a4, sha256: 9e56204fb2def5b5886be3fdd917c621fc9877aff94b8ec9ebab461b1a9382dd)
+0008.891 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.101 (0) Total entities for the zip file: 53 directories, 227 files (0 skipped as non-modified), 4.9 MB
+0009.218 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.330 (0) Zip: backup_2018-12-18-2003_Byron_b97d9a5872fd-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.636 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-themes.zip.tmp: size is now: 2.70 MB
+0010.017 (0) Created themes zip (0) - 2749.5 KB in 1 s (2714 KB/s) (sha1: ae190cb3199d71f6a1f57c6233417e0c84d072fe, sha256: 9016a149e61a3f4f02e84413adbe110aaed199e039e8803473034529a9de6bd8)
+0010.284 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0010.417 (0) Looking for candidates to backup in: /var/www/html/Capacitacao_Portfolio/wp-content/uploads
+0010.573 (0) finding files: 2018: adding to list (1)
+0010.707 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.038 (0) Total entities for the zip file: 2 directories, 70 files (0 skipped as non-modified), 6.5 MB
+0011.977 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-uploads.zip.tmp: size is now: 6.50 MB
+0012.519 (0) Created uploads zip (0) - 6660.8 KB in 1.7 s (3995.6 KB/s) (sha1: f846a600a4dc538f5436549ea78e74008ed9a6d8, sha256: f67345072ea1bc9697866a0e097e6a46ee6e3b81c49b1d44975231cd6b82f566)
+0012.712 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.812 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0012.890 (0) Looking for candidates to backup in: /var/www/html/Capacitacao_Portfolio/wp-content
+0012.957 (0) finding files: ngg: adding to list (1)
+0013.035 (0) finding files: languages: adding to list (2)
+0013.102 (0) finding files: plugins: skipping: this is the plugins directory
+0013.169 (0) finding files: themes: skipping: this is the themes directory
+0013.236 (0) finding files: upgrade: skipping: excluded by options
+0013.314 (0) finding files: index.php: adding to list (3)
+0013.381 (0) finding files: updraft: skipping: this is the updraft directory
+0013.459 (0) finding files: uploads: skipping: this is the uploads directory
+0013.652 (0) Total entities for the zip file: 43 directories, 20 files (0 skipped as non-modified), 1.9 MB
+0013.860 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-others.zip.tmp: size is now: 0.60 MB
+0014.273 (0) Created others zip (0) - 567.6 KB in 0.7 s (774.4 KB/s) (sha1: 73d2b50fe4465f666343c85ceca00752ebf0bb01, sha256: ad3198627e02fe876c0d96b839862027d8e88db1b1d0b45b74cc29dffaab3f3c)
+0014.643 (0) Saving backup status to database (elements: 8)
+0014.873 (0) Beginning creation of database dump (WordPress DB)
+0015.007 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0016.168 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n SET character_set_client = utf8mb4 ;\nCREATE TAB (truncated - 1088 bytes total)
+0016.906 (0) Table wp_options: Total expected rows (approximate): 205
+0017.077 (0) Table wp_options: Total rows added: 205 in 0.05 seconds
+0017.163 (0) Table wp_options: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_options.table.gz - 185.4 KB)
+0017.585 (0) Table wp_users: Total expected rows (approximate): 0
+0017.665 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0017.730 (0) Table wp_users: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_users.table.gz - 0.6 KB)
+0018.064 (0) Table wp_usermeta: Total expected rows (approximate): 28
+0018.145 (0) Table wp_usermeta: Total rows added: 28 in 0.00 seconds
+0018.209 (0) Table wp_usermeta: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_usermeta.table.gz - 1.7 KB)
+0018.521 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0018.618 (0) Table wp_commentmeta: Total rows added: 0 in 0.02 seconds
+0018.745 (0) Table wp_commentmeta: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0019.156 (0) Table wp_comments: Total expected rows (approximate): 0
+0019.248 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0019.334 (0) Table wp_comments: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_comments.table.gz - 0.7 KB)
+0019.614 (0) Table wp_links: Total expected rows (approximate): 0
+0019.750 (0) Table wp_links: Total rows added: 0 in 0.06 seconds
+0019.846 (0) Table wp_links: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_links.table.gz - 0.4 KB)
+0020.125 (0) Table wp_postmeta: Total expected rows (approximate): 977
+0020.212 (0) Table wp_postmeta: Total rows added: 977 in 0.01 seconds
+0020.292 (0) Table wp_postmeta: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_postmeta.table.gz - 11.4 KB)
+0020.572 (0) Table wp_posts: Total expected rows (approximate): 244
+0020.685 (0) Table wp_posts: Total rows added: 252 in 0.03 seconds
+0020.772 (0) Table wp_posts: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_posts.table.gz - 71.6 KB)
+0021.162 (0) Table wp_term_relationships: Total expected rows (approximate): 12
+0021.242 (0) Table wp_term_relationships: Total rows added: 14 in 0.00 seconds
+0021.340 (0) Table wp_term_relationships: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0021.641 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0021.711 (0) Table wp_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0021.809 (0) Table wp_term_taxonomy: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0022.128 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0022.214 (0) Table wp_termmeta: Total rows added: 0 in 0.02 seconds
+0022.333 (0) Table wp_termmeta: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_termmeta.table.gz - 0.4 KB)
+0022.759 (0) Table wp_terms: Total expected rows (approximate): 2
+0022.827 (0) Table wp_terms: Total rows added: 2 in 0.00 seconds
+0022.913 (0) Table wp_terms: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_terms.table.gz - 0.4 KB)
+0023.202 (0) Table wp_ngg_album: Total expected rows (approximate): 0
+0023.335 (0) Table wp_ngg_album: Total rows added: 0 in 0.07 seconds
+0023.414 (0) Table wp_ngg_album: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_ngg_album.table.gz - 0.4 KB)
+0023.670 (0) Table wp_ngg_gallery: Total expected rows (approximate): 0
+0023.793 (0) Table wp_ngg_gallery: Total rows added: 1 in 0.06 seconds
+0023.892 (0) Table wp_ngg_gallery: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_ngg_gallery.table.gz - 0.5 KB)
+0024.205 (0) Table wp_ngg_pictures: Total expected rows (approximate): 32
+0024.386 (0) Table wp_ngg_pictures: Total rows added: 32 in 0.07 seconds
+0024.472 (0) Table wp_ngg_pictures: finishing file (backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_ngg_pictures.table.gz - 6.2 KB)
+0024.872 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_options.table.gz (1/15): adding to final database dump
+0024.999 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_users.table.gz (2/15): adding to final database dump
+0025.072 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_usermeta.table.gz (3/15): adding to final database dump
+0025.150 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_commentmeta.table.gz (4/15): adding to final database dump
+0025.229 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_comments.table.gz (5/15): adding to final database dump
+0025.295 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_links.table.gz (6/15): adding to final database dump
+0025.373 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_postmeta.table.gz (7/15): adding to final database dump
+0025.457 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_posts.table.gz (8/15): adding to final database dump
+0025.573 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_term_relationships.table.gz (9/15): adding to final database dump
+0025.663 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_term_taxonomy.table.gz (10/15): adding to final database dump
+0025.771 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_termmeta.table.gz (11/15): adding to final database dump
+0025.852 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_terms.table.gz (12/15): adding to final database dump
+0025.930 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_ngg_album.table.gz (13/15): adding to final database dump
+0026.008 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_ngg_gallery.table.gz (14/15): adding to final database dump
+0026.097 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db-table-wp_ngg_pictures.table.gz (15/15): adding to final database dump
+0026.233 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db.gz: finished writing out complete database file (264 KB)
+0026.588 (0) Total database tables backed up: 15 (backup_2018-12-18-2003_Byron_b97d9a5872fd-db.gz, size: 284435, sha256)
+0026.889 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0026.967 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0027.034 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0027.101 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-others.zip: others: This file has not yet been successfully uploaded: will queue
+0027.167 (0) backup_2018-12-18-2003_Byron_b97d9a5872fd-db.gz: db: This file has not yet been successfully uploaded: will queue
+0027.256 (0) Saving backup history. Total backup size: 18.8 MB
+0027.480 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0027.846 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0028.203 (0) No remote despatch: user chose no remote backup service
+0028.356 (0) Recording as successfully uploaded: backup_2018-12-18-2003_Byron_b97d9a5872fd-plugins.zip
+0028.536 (0) Recording as successfully uploaded: backup_2018-12-18-2003_Byron_b97d9a5872fd-themes.zip
+0028.736 (0) Recording as successfully uploaded: backup_2018-12-18-2003_Byron_b97d9a5872fd-uploads.zip
+0028.881 (0) Recording as successfully uploaded: backup_2018-12-18-2003_Byron_b97d9a5872fd-others.zip
+0029.048 (0) Recording as successfully uploaded: backup_2018-12-18-2003_Byron_b97d9a5872fd-db.gz
+0029.283 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0029.349 (0) Number of backup sets in history: 3; groups (db): 1
+0029.415 (0) Examining (for databases) backup set with group_id=0, nonce=b97d9a5872fd, datestamp=1545163404 (Dec 18 2018 20:03:24)
+0029.482 (0) This backup set is the backup set just made, so will not be deleted.
+0029.482 (0) Examining (for databases) backup set with group_id=0, nonce=0f3e9cbbf09b, datestamp=1545079634 (Dec 17 2018 20:47:14)
+0029.482 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.571 (0) Examining (for databases) backup set with group_id=0, nonce=360d2eecd1eb, datestamp=1545010254 (Dec 17 2018 01:30:54)
+0029.571 (0) 1545010254: db: this set includes a database (backup_2018-12-17-0130_Byron_360d2eecd1eb-db.gz); db count is now 2
+0029.571 (0) 1545010254: db: over retain limit (2); will delete this database
+0029.571 (0) Delete file: backup_2018-12-17-0130_Byron_360d2eecd1eb-db.gz, service=none
+0029.704 (0) Deleting local copy (backup_2018-12-17-0130_Byron_360d2eecd1eb-db.gz)
+0029.916 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0029.983 (0) Number of backup sets in history: 3; groups (files): 1
+0030.049 (0) Examining (for files) backup set with nonce=b97d9a5872fd, datestamp=1545163404 (Dec 18 2018 20:03:24)
+0030.049 (0) This backup set is the backup set just made, so will not be deleted.
+0030.127 (0) This backup set is the backup set just made, so will not be deleted.
+0030.128 (0) This backup set is the backup set just made, so will not be deleted.
+0030.128 (0) This backup set is the backup set just made, so will not be deleted.
+0030.128 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.205 (0) Examining (for files) backup set with nonce=0f3e9cbbf09b, datestamp=1545079634 (Dec 17 2018 20:47:14)
+0030.205 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.205 (0) Examining (for files) backup set with nonce=360d2eecd1eb, datestamp=1545010254 (Dec 17 2018 01:30:54)
+0030.205 (0) plugins: over retain limit (2); will delete this file entity
+0030.205 (0) themes: over retain limit (2); will delete this file entity
+0030.206 (0) uploads: over retain limit (2); will delete this file entity
+0030.206 (0) others: over retain limit (2); will delete this file entity
+0030.206 (0) Delete file: backup_2018-12-17-0130_Byron_360d2eecd1eb-plugins.zip, service=none
+0030.283 (0) Deleting local copy (backup_2018-12-17-0130_Byron_360d2eecd1eb-plugins.zip)
+0030.384 (0) Delete file: backup_2018-12-17-0130_Byron_360d2eecd1eb-themes.zip, service=none
+0030.461 (0) Deleting local copy (backup_2018-12-17-0130_Byron_360d2eecd1eb-themes.zip)
+0030.596 (0) Delete file: backup_2018-12-17-0130_Byron_360d2eecd1eb-uploads.zip, service=none
+0030.863 (0) Deleting local copy (backup_2018-12-17-0130_Byron_360d2eecd1eb-uploads.zip)
+0031.042 (0) Delete file: backup_2018-12-17-0130_Byron_360d2eecd1eb-others.zip, service=none
+0031.119 (0) Deleting local copy (backup_2018-12-17-0130_Byron_360d2eecd1eb-others.zip)
+0031.287 (0) This backup set is now empty; will remove from history
+0031.354 (0) Deleting log file (log.360d2eecd1eb.txt)
+0031.421 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0031.766 (0) Resume backup (b97d9a5872fd, 0): finish run
+0031.977 (0) Decremented the semaphore (fd) by 1
+0032.155 (0) Semaphore (fd) unlocked
+0032.233 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0032.502 (0) No email will/can be sent - the user has not configured an email address.
+0032.714 (0) The backup apparently succeeded and is now complete

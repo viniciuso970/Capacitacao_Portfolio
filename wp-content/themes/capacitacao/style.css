@@ -216,6 +216,8 @@ p.citacao {
     margin-left: 47px;
     margin-bottom: 10px;
 }
+
+.work-process h2,
 .our-clients h2,
 .our-services h2 {
     font-size: 30px;
@@ -225,6 +227,10 @@ p.citacao {
     border-left: #4b4e53 2px solid;
 }
 
+.work-process h2{
+  color: #f1f1f1;
+  border-left: #f1f1f1 2px solid;
+}
 .servicos .icone {
     font-size: 45px;
 }
@@ -245,6 +251,39 @@ p.citacao {
 
 .imagem-grid {
     grid-column-gap: 0px;
+}
+
+.work-process-secao{
+  position: relative;
+  height: 750px;
+}
+
+
+
+.work-process{
+  position: absolute;
+  z-index: 5;
+}
+
+.work-process .texto-icone{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 15%;
+}
+
+.work-process .icone{
+  position: initial;
+  font-size: 45px;
+  color: #f1f1f1;
+}
+
+.work-process .texto h3,
+.work-process .texto p{
+  color: #f1f1f1;
+}
+
+.work-process .texto p{
+  margin: 0;
 }
 
 @media only screen and (min-width: 400px) {
@@ -288,6 +327,12 @@ p.citacao {
         font-size: 30px;
         line-height: 40px;
     }
+
+    .work-process-secao{
+      height: 600px;
+    }
+
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -330,6 +375,14 @@ p.citacao {
     .segunda-secao img {
         width: 90%;
         height: 100%;
+    }
+
+    .work-process-secao{
+      height: 400px;
+    }
+    .work-process .grid-s1-m2,
+    .work-process .texto-icone{
+      grid-column-gap: 20px;
     }
 }
 

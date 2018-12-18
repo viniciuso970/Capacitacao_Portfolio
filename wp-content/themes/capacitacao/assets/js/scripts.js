@@ -25,5 +25,8 @@
         $('#form-search').addClass('hide');
         $('.nav-wrapper').removeClass('hide');
     });
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
 
 }(jQuery))
