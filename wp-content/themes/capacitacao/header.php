@@ -9,29 +9,53 @@
 </head>
 <body>
     <header>      
-        <nav>
-            <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
-            </ul>
-            </div>
-        </nav>
-        <div class="galeria">
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo left">
+                        <?php
+                            if(function_exists('the_custom_logo')) {
+                                the_custom_logo(); 
+                            }
+                        ?>
+                    </a>
+                    <a id="menu-mobile" href="#" data-target="mobile-demo" class="itens-mobile sidenav-trigger right"><i class="material-icons">menu</i></a>
+                    <a id="icon-search" class="itens-mobile right"><i class="material-icons">search</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <?php 
+                            $args = array(
+                                "theme_location" => "main-menu",
+                                "container" => "li",
+                                "container_id" => "main-menu"
+                            );
+                            wp_nav_menu( $args );
+                        ?>
+                    </ul>
+                </div>
+                <form id="form-search" class="hide">
+                    <div class="input-field">
+                    <input id="search" type="search" placeholder="Search" required>
+                    <i id="icon-close" class="material-icons">close</i>
+                    </div>
+                </form>
+            </nav>
+        </div>
+        <div class="slider">
             <?php
-                $args = array( 'post_type' => 'galeria', 'posts_per_page' => 10 );
+                $args = array( 'post_type' => 'slider', 'posts_per_page' => 10 );
                 $loop = new WP_Query( $args );
                 while ( $loop->have_posts() ) : $loop->the_post();
             ?>
-            <div>
-                <img src="<?php echo the_field('imagem');?>" alt="Galeria" srcset="">
-                <?php echo the_content(); ?>
+            <div class="slide">
+                <?php echo the_post_thumbnail(); ?>
+                <div class="slide-text">
+                    <h1><?php echo the_title(); ?></h1>
+                    <?php echo the_content(); ?>
+                </div>
             </div>
-            
             <?php
-                endwhile;
+                endwhile;  
+                wp_reset_postdata();
             ?>
         </div>
     </header>

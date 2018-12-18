@@ -1,0 +1,8 @@
+0000.191 () Opened log file at time: Mon, 17 Dec 2018 00:47:19 +0000 on http://localhost/Capacitacao_Portfolio
+0000.192 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.2.10-0ubuntu0.18.04.1 (apache2handler, Linux Ubuntu 4.15.0-36-generic #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018 x86_64) MySQL: 8.0.12 WPLANG: pt_BR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.192 () Free space on disk containing Updraft's temporary directory: 145496.8 MB
+0000.258 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.275 () Error message: Pastas não-removidas que existiam de um restore anterior foram encontradas (por favor utilize o botão "Deletar Antigos Diretórios" para deletá-las antes de tentar novamente): /var/www/html/Capacitacao_Portfolio/wp-content/plugins-old
+0000.371 () Restore failed...
+0000.371 () Error message: Pastas não-removidas que existiam de um restore anterior foram encontradas (por favor utilize o botão "Deletar Antigos Diretórios" para deletá-las antes de tentar novamente): /var/www/html/Capacitacao_Portfolio/wp-content/plugins-old
+0000.371 () Restore failed

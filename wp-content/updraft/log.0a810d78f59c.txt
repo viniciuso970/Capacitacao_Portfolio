@@ -1,0 +1,56 @@
+0000.314 () Opened log file at time: Mon, 17 Dec 2018 00:33:06 +0000 on http://localhost/Capacitacao_Portfolio
+0000.314 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.2.10-0ubuntu0.18.04.1 (apache2handler, Linux Ubuntu 4.15.0-36-generic #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018 x86_64) MySQL: 8.0.12 WPLANG: pt_BR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 6M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.314 () Free space on disk containing Updraft's temporary directory: 145542.1 MB
+0000.415 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.435 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.792 () Entity: db
+0000.792 () restore_backup(backup_file=backup_2018-12-16-2232_Capacitao_f82359a3013f-db.gz, type=db, info=a:0:{}, last_one=)
+0000.792 () Desempacotando o backup... (backup_2018-12-16-2232_Capacitao_f82359a3013f-db.gz, 0.2 Mb)
+0000.793 () Database successfully unpacked
+0000.793 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.793 () Using direct MySQL access; value of use_mysqli is: 1
+0001.629 () Max packet size: 64 MB
+0001.629 () Entering maintenance mode
+0001.629 () Ativando modo de manutenção&#8230;
+0001.632 () Backup of: http://localhost/Capacitacao_Portfolio
+0001.633 () Content URL: http://localhost/Capacitacao_Portfolio/wp-content
+0001.633 () Uploads URL: http://localhost/Capacitacao_Portfolio/wp-content/uploads
+0001.633 () Old table prefix: wp_
+0001.633 () Site information: multisite=0
+0001.635 () New table prefix: wp_
+0001.915 () Processing table (InnoDB): wp_options
+0006.365 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0006.858 () Processing table (InnoDB): wp_users
+0008.271 () Processing table (InnoDB): wp_usermeta
+0009.318 () Processing table (InnoDB): wp_commentmeta
+0010.344 () Processing table (InnoDB): wp_comments
+0011.770 () Processing table (InnoDB): wp_links
+0012.619 () Processing table (InnoDB): wp_postmeta
+0013.933 () Processing table (InnoDB): wp_posts
+0015.258 () Processing table (InnoDB): wp_term_relationships
+0016.183 () Processing table (InnoDB): wp_term_taxonomy
+0017.154 () Processing table (InnoDB): wp_termmeta
+0018.211 () Processing table (InnoDB): wp_terms
+0019.330 () Unlocking database and leaving maintenance mode
+0019.330 () Desativando modo de manutenção&#8230;
+0019.330 () Finished: lines processed: 42 in 18.53 seconds
+0019.330 () Limpando a sujeira...
+0019.683 () Entity: plugins
+0019.683 () restore_backup(backup_file=backup_2018-12-16-2232_Capacitao_f82359a3013f-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:54:"/var/www/html/Capacitacao_Portfolio/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0019.683 () Desempacotando o backup... (backup_2018-12-16-2232_Capacitao_f82359a3013f-plugins.zip, 8.8 Mb)
+0020.031 () Moving old data: filesystem method / updraft_dir is potentially possible
+0020.031 () Moving old data: can potentially use wp_filesystem method / -old
+0020.031 () Movendo dados antigos para fora do caminho...
+0020.171 () Top-level entities being moved: advanced-custom-fields, updraftplus, advanced-custom-fields-font-awesome, index.php
+0020.329 () Error message: Não pode mover os arquivos para o local. Verifique suas permissões de arquivamento.
+0020.329 () Error data (move_failed): /var/www/html/Capacitacao_Portfolio/wp-content/plugins/advanced-custom-fields -> /var/www/html/Capacitacao_Portfolio/wp-content/updraft/plugins-old/advanced-custom-fields
+0020.329 () plugins: /var/www/html/Capacitacao_Portfolio/wp-content/plugins: deleting contents (as attempts to copy failed)
+0020.886 () Movendo backup desempacotado para o local...
+0021.022 () Top-level entities being moved: advanced-custom-fields, updraftplus, advanced-custom-fields-font-awesome, index.php
+0021.023 () PHP event: code E_WARNING: copy(/var/www/html/Capacitacao_Portfolio/wp-content/plugins/advanced-custom-fields/lang/acf-it_IT.mo): failed to open stream: Permission denied (line 243, wp-admin/includes/class-wp-filesystem-direct.php)
+0021.298 () Error message: Não pode mover os arquivos para o local. Verifique suas permissões de arquivamento.
+0021.298 () Error data (move_failed): (2) /var/www/html/Capacitacao_Portfolio/wp-content/upgrade/7ae150ab/plugins/advanced-custom-fields -> /var/www/html/Capacitacao_Portfolio/wp-content/plugins/advanced-custom-fields
+0021.409 () Restore failed...
+0021.409 () Error message: Não pode mover os arquivos para o local. Verifique suas permissões de arquivamento.
+0021.409 () Error data (move_failed): (2) /var/www/html/Capacitacao_Portfolio/wp-content/upgrade/7ae150ab/plugins/advanced-custom-fields -> /var/www/html/Capacitacao_Portfolio/wp-content/plugins/advanced-custom-fields
+0021.409 () Restore failed
