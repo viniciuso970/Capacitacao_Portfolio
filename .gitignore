@@ -4,6 +4,16 @@ wp-content/mu-plugins/
 wp-content/plugins/hello.php
 wp-content/uploads
 
+# Updraft
+wp-content/updraft/*.txt
+wp-content/themes-old
+wp-content/plugins-old
+wp-content/themes-old
+wp-content/uploads-old
+wp-content/languages-old
+wp-content/index.php-old
+wp-content/ngg-old
+
 /.htaccess
 /license.txt
 /readme.html
