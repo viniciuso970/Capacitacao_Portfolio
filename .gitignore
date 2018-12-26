@@ -6,9 +6,11 @@ wp-content/uploads
 
 # Updraft
 wp-content/updraft/*.txt
+wp-content/updraft/themes-old
+wp-content/updraft/plugins-old
+wp-content/updraft/uploads-old
 wp-content/themes-old
 wp-content/plugins-old
-wp-content/themes-old
 wp-content/uploads-old
 wp-content/languages-old
 wp-content/index.php-old
