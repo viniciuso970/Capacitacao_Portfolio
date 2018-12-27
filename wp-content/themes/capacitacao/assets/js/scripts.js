@@ -1,14 +1,14 @@
 (function($) {
     AOS.init();
-    //$('a.fluidbox').fluidbox();
+    $('a.fluidbox').fluidbox();
     $('.slider').slick({
         infinite: true,
         slidesToShow: 1,
         autoPlay: true,
         autoplaySpeed: 1000,
         arrows: true,
-        nextArrow: '<img class="next" src="'+ options.url +'/assets/img/arrow-slider.png" alt=">" >',
-        prevArrow: '<img class="prev" src="'+ options.url +'/assets/img/arrow-slider.png" alt=">" >',
+        nextArrow: '<i class="fa fa-chevron-circle-right next" aria-hidden="true"></i>',
+        prevArrow: '<i class="fa fa-chevron-circle-left prev" aria-hidden="true"></i>'
     });
     $('.galeria').on('setPosition', function () {
         $(this).find('.slick-slide').height('auto');

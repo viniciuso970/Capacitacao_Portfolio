@@ -107,7 +107,7 @@
         ?>
     </div>
     <?php
-        $args = array( 'post_type' => 'galeria', 'posts_per_page' => 7 );
+        $args = array( 'post_type' => 'galeria', 'posts_per_page' => 6 );
         $loop = new WP_Query( $args );
         $nro_imagens = $loop->found_posts;
         $class_name = "";
@@ -115,26 +115,30 @@
             $class_name = "grid-s1-m1";
         } else if($nro_imagens == 2) {
             $class_name = "grid-s1-m2";
-        } else if($nro_imagens != 7) {
-            $class_name = "grid-s1-m2-l3";
+        } else if($nro_imagens == 3) {
+            $class_name = "galeria-grid-3";
+        } else if($nro_imagens == 4) {
+            $class_name = "galeria-grid-4";
+        } else if($nro_imagens == 5) {
+            $class_name = "galeria-grid-5";
         } else {
-            $class_name = "galeria-grid-7";
+            $class_name = "galeria-grid-6";
         }
     ?>
     <div class="imagem-grid <?php echo $class_name; ?>">
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="galeria">
-            <div class="imagens">
-                <?php echo get_the_post_thumbnail(); ?>
-                <div class="galeria-text hide">
-                    <h1><?php echo the_title(); ?></h1>
-                    <?php
-                        $categorias = get_the_category();
-                        foreach($categorias as $category) {
-                            echo '<p><a href="'. esc_url( get_category_link( $category->term_id)) .'">'. get_cat_name( $category->term_id) .'</a></p>';
-                        }
-                    ?>
-                </div>
+            <a class="fluidbox">
+                <?php echo the_post_thumbnail(); ?>
+            </a>
+            <div class="galeria-text hide">
+                <h1><?php echo the_title(); ?></h1>
+                <?php
+                    $categorias = get_the_category();
+                    foreach($categorias as $category) {
+                        echo '<p><a href="'. esc_url( get_category_link( $category->term_id)) .'">'. get_cat_name( $category->term_id) .'</a></p>';
+                    }
+                ?>
             </div>
         </div>
         <?php
@@ -210,6 +214,38 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="our-team container-secao">
+      <h2>HOUR<span style="font-weight:bold">TEAM</span></h2>
+      <div class="grid-s1-l3 mt-5 gridcl-gap-5">
+        <?php if(get_field('imagem_membro_1')): ?>
+          <div class="grid-center team_member">
+            <img class="responsive-img"  src="<?php the_field('imagem_membro_1') ?>" alt="">
+            <h5><?php the_field('nome_membro_1'); ?></h5>
+            <p><?php the_field('cargo_membro_1') ?></p>
+          </div>
+        <?php endif; ?>
+
+        <?php if(get_field('imagem_membro_2')): ?>
+          <div class="grid-center team_member">
+            <img class="responsive-img"  src="<?php the_field('imagem_membro_2') ?>" alt="">
+            <h5><?php the_field('nome_membro_2'); ?></h5>
+            <p><?php the_field('cargo_membro_2') ?></p>
+          </div>
+        <?php endif; ?>
+
+        <?php if(get_field('imagem_membro_3')): ?>
+          <div class="grid-center team_member">
+            <img  class="responsive-img" src="<?php the_field('imagem_membro_3') ?>" alt="">
+            <h5><?php the_field('nome_membro_3'); ?></h5>
+            <p><?php the_field('cargo_membro_3') ?></p>
+          </div>
+        <?php endif; ?>
+
+      </div>
+    </div>
+    <div class="view-all-team">
+      <a href="#">VIEW ALL TEAM</a>
     </div>
     <?php
         endwhile;
