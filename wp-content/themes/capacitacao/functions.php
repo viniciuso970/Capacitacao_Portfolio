@@ -201,9 +201,9 @@ function capacitacao_post_type() {
   		'hierarchical'       => false,
   		'menu_position'      => 6,
   		'supports'           => array( 'title', 'editor', 'thumbnail' ),
-          'taxonomies'         => array( 'category' ),
+        'taxonomies'         => array( 'category' ),
   	);
-      register_post_type( 'client', $args );
+    register_post_type( 'client', $args );
 }
 
 add_action( 'init', 'capacitacao_post_type' );

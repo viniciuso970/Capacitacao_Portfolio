@@ -26,6 +26,15 @@ function capacitacao_customizer_panel_sections( $wp_customize ) {
 	    'description' => '',
 	    'panel' => 'panel_capacitacao',
     )  );
+
+	$wp_customize->add_section( 'clientes_secao', array(
+	    'priority' => 10,
+	    'capability' => 'edit_theme_options',
+	    'theme_supports' => '',
+	    'title' => __( 'Clientes', 'textdomain' ),
+	    'description' => '',
+	    'panel' => 'panel_capacitacao',
+	)	);
 }
 add_action( 'customize_register', 'capacitacao_customizer_panel_sections'  );
 
@@ -98,6 +107,14 @@ function capacitacao_segunda_secao( $wp_customize ) {
 
 }
 add_action( 'customize_register', 'capacitacao_segunda_secao'  );
+
+function capacitacao_clientes_secao( $wp_customize ) {
+    
+    capacitacao_add_setting( $wp_customize, 'clientes_secao_descricao', 'sanitize_text_field' );
+	capacitacao_add_control( $wp_customize, 'clientes_secao_descricao', 'textarea', 'Descricao: ', 'clientes_secao' );
+	
+}
+add_action( 'customize_register', 'capacitacao_clientes_secao'  );
 
 function capacitacao_add_setting( $wp_customize, $name, $sanitize ) {
     $wp_customize->add_setting( $name, array(
