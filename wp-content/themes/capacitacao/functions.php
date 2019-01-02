@@ -38,6 +38,14 @@ function capacitacao_styles()
 	wp_enqueue_script("aos");
 	wp_enqueue_script("script");
 
+	wp_localize_script(
+		'script',
+		'options',
+		array(
+			'url'	=> esc_html(get_template_directory_uri()),
+		)
+	);
+
 }
 
 add_action('wp_enqueue_scripts', "capacitacao_styles");
